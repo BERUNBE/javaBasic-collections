@@ -8,7 +8,6 @@ public class MyStack {
     private int capacity;
     private int count;
     private static final int GROW_FACTOR = 2;
-    private int[] newArray = new int[0];
 
     public MyStack(int initialCapacity) {
         if (initialCapacity < 1) {
