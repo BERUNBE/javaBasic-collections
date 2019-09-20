@@ -23,9 +23,9 @@ public class Sequence implements Iterable<Integer> {
 class SequenceIterator implements Iterator<Integer> {
     // TODO: You can add additional fields or methods if you want.
     // <--start
-    Integer start;
-    Integer cursor = 1;
-    Integer size;
+    private Integer start;
+    private Integer cursor = 1;
+    private Integer size;
     // --end-->
 
     SequenceIterator(Integer start, Integer end) {
