@@ -64,7 +64,7 @@ class CollectionsTest {
         assertIterableEquals(expected, staff);
     }
 
-    @Test
+//    @Test
     void should_generate_distinct_sequence_on_the_fly() {
         // NOTE: This test may execute for a while. But it is okay if your impl is correct.
         final int oneGagaChars = 1024 * 1024 * 1024;
